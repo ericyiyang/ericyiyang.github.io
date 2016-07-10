@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  <title>Welcome to Jekyll!</title>
+  <meta name="description" content="Jekyll 博客基本使用指南">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+
+  
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+  <link rel="stylesheet" href="/css/screen.css">
+
+  
+  <link rel="canonical" href="//blog/2016/06/18/Welcome-To-Jekyll/">
+  <link rel="alternate" type="application/atom+xml" title="Stardust" href="//feed.xml" />
+
+  <script type="text/javascript" src="/assets/javascripts/jquery-2.1.4.min.js"></script>
+</head>
+
+
+  <body class="">
+
+    
+<div id="feature_image">
+  <div class="inner" style="background-image: url('/images//boating.jpg')">
+    <img src='/images/boating.jpg'>
+    </div>
+</div>
+
+
+<article role="main" class="image">
+    <header>
+      <a href="/" id="home_link">«</a>
+      <div class="meta"><time datetime="2016-06-18"><a href="/blog/2016/06/18/Welcome-To-Jekyll/">June 18, 2016</a></time>
+        <span class="count" id="js-reading-time">&nbsp;</span>
+      </div>
+      <h1>Welcome to Jekyll!</h1>
+    </header>
+
+    <div class="text" id="js-post-content">
+        <h2 id="section">搭建博客的最小行动方案</h2>
+
+<p>最小行动：</p>
+
+<ol>
+  <li>Fork 主题博客的源码仓库（如果是使用这个模板博客，则是新建仓库，然后从学员仓库主目录中将 3Jekyll 文件夹下的 Jekyll Blog Theme 代码复制过去）</li>
+  <li>将博客仓库更名为：yourGitHubName.github.io</li>
+  <li>访问 yourGitHubName.github.io 域名，查看博客是否能正常使用
+    <ul>
+      <li>注意，如果你不绑定独立域名，则删除主目录下的 CNAME 文件</li>
+      <li>有些博客默认是 gh-pages 分支为主分支，使用时记得切换</li>
+    </ul>
+  </li>
+  <li>个性化操作，将自己的独立博客变得更符合自己的趣味或使用习惯</li>
+</ol>
+
+<h2 id="section-1">修改博客</h2>
+
+<p>对于博客的自定义设定，需要你修改的文档包括：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">_config.yml</code> <strong>博客配置</strong>文档（包括博客标题、favicon、博主 ID、头像、描述、联系方式等基本信息都在这个文档修改）</li>
+  <li><code class="highlighter-rouge">About.me</code> 个人介绍页面</li>
+  <li><code class="highlighter-rouge">images</code> 文件夹下的存放的博客横版贴图 博客 Logo、博主头像一类</li>
+  <li><code class="highlighter-rouge">CNAME</code> 如果绑定个人域名，请创建此文件并添加</li>
+</ul>
+
+<h2 id="section-2">发布自己的博文</h2>
+
+<p>博文存放在主目录下的 <code class="highlighter-rouge">_posts</code> 文件夹中。格式必须为 「日期 + 英文标题」（比如：<code class="highlighter-rouge">2016-06-18-Welcome-To-Jekyll</code>），不然无法识别和发布。</p>
+
+<p>博文的文件格式一般为 md(Markdown )格式。</p>
+
+<p>每一篇 Markdown 文档的开头（第一行都为「 —」）都必须添加一段语法(YAML 语法)。具体到这一个博客模板，是：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: post
+title:  "陶庵梦忆"
+description: 张岱的陶庵梦忆 写尽了那一个时代的繁华与心酸
+image: header.jpg
+---
+博文的具体内容
+</code></pre>
+</div>
+
+<p>说明：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">title</code> 博文标题</li>
+  <li><code class="highlighter-rouge">description</code> 博文的摘要，用于显示在博客首页，作为某一篇博文的简述</li>
+  <li><code class="highlighter-rouge">image</code> 博文的横版贴图，贴图得先添加到博客的仓库，然后才能在博文中使用。（默认添加在博客仓库主目录下 <code class="highlighter-rouge">/images/</code> 文件夹中。）</li>
+</ul>
+
+<p>另外，<code class="highlighter-rouge">/_posts</code> 文件夹中，<code class="highlighter-rouge">Template.md</code> 的文档是博文模板，内置了 YAML 代码，只要对标题、描述和贴图等进行修改即可使用。</p>
+
+<p>添加完成后，剩余的事就是提交和推送博客更新到 GitHub（与一般的 GitHub 同步操作没什么区别）。而后博客就完成了更新。</p>
+
+<h2 id="section-3">注意点</h2>
+
+<ul>
+  <li>测试博客时，注意及时清理浏览器缓存，不然有些变动，虽然提交了，但在你查看时浏览器不会及时刷新完成，会让你误以为自己操作失败了。</li>
+  <li>注意 GitHub 注册邮箱的收件动态，如果博客出问题，GitHub 会发邮件报错，可以及时知晓，然后有针对性地修改。</li>
+</ul>
+
+    </div>
+
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">Comments powered by Disqus.</a></noscript>
+
+</article>
+
+<footer role="contentinfo" class='post-footer'>
+    <div class="inner">
+        <div class="vcard">
+          <a href="/feed.xml" id="btn_feed" class="btn" title="Feed" target="_blank">
+                <span aria-hidden="true" data-icon=")"></span>
+                <strong>Feed</strong>
+            </a>
+
+            
+            <a href="/About" class="photo circle">
+              <span style="background-image: url('/images/avatar.png');">
+                <img src="/images/avatar.png" alt="Stardust"/>
+              </span>
+            </a>
+            
+
+            <div class="details">
+                <h4><a href="//About" class="url n">Yourname</a></h4>
+                <a href="/" class="js-remove-domain-schema">/</a><br>
+                <span><a href='https://github.com/jekyll'>My GitHub</a></span><br>
+                <span>Published with <a href="https://jekyllrb.com">Jekyll</a></span>
+            </div>
+        </div>
+        <div id="user_bio">
+            <div class="inner">
+                Roon was an excellent service, with a beautiful understated design. After being acquired by <a href='https://ghost.org'>Ghost</a>, the Roon theme was open sourced.<br> This is my Jekyll port of the Roon theme.
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    
+    <a href="/" id="blog_badge">
+            <span style="background-image:
+            url('/images/logo.png');"></span>
+        </a>
+    
+
+    <script>
+      function no_schema_links () {
+        var links = document.querySelectorAll('.js-remove-domain-schema');
+        if (links) {
+          for (i = 0; i < links.length; ++i) {
+            var link = links[i],
+              text = link.innerHTML,
+            no_schema = text.replace(/.*?:\/\//g, "");
+            link.innerHTML = no_schema;
+          }
+        }
+      }
+
+      window.onload = function () {
+        no_schema_links();
+      }
+    </script>
+  </body>
+
+</html>
