@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stardust</title>
+    <title>时光刻录机</title>
     <description>Roon was an excellent service, with a beautiful understated design. After being acquired by &lt;a href=&#39;https://ghost.org&#39;&gt;Ghost&lt;/a&gt;, the Roon theme was open sourced.&lt;br&gt; This is my Jekyll port of the Roon theme.
 </description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Jul 2016 17:39:53 +0800</pubDate>
-    <lastBuildDate>Sun, 10 Jul 2016 17:39:53 +0800</lastBuildDate>
+    <link>ericyiyang.github.io/</link>
+    <atom:link href="ericyiyang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Jul 2016 17:43:52 +0800</pubDate>
+    <lastBuildDate>Sun, 10 Jul 2016 17:43:52 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -77,8 +77,8 @@ image: header.jpg
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 18 Jun 2016 00:00:00 +0800</pubDate>
-        <link>//blog/2016/06/18/Welcome-To-Jekyll/</link>
-        <guid isPermaLink="true">//blog/2016/06/18/Welcome-To-Jekyll/</guid>
+        <link>ericyiyang.github.io/blog/2016/06/18/Welcome-To-Jekyll/</link>
+        <guid isPermaLink="true">ericyiyang.github.io/blog/2016/06/18/Welcome-To-Jekyll/</guid>
         
         
         <category>blog</category>
@@ -122,8 +122,8 @@ image: header.jpg
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 17 Jun 2016 00:00:00 +0800</pubDate>
-        <link>//2016/06/17/Music-Share-With-You/</link>
-        <guid isPermaLink="true">//2016/06/17/Music-Share-With-You/</guid>
+        <link>ericyiyang.github.io/2016/06/17/Music-Share-With-You/</link>
+        <guid isPermaLink="true">ericyiyang.github.io/2016/06/17/Music-Share-With-You/</guid>
         
         
       </item>
@@ -203,8 +203,8 @@ By Azeril&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 15 Jun 2016 00:00:00 +0800</pubDate>
-        <link>//2016/06/15/Zhangdai-And-His-Dreams/</link>
-        <guid isPermaLink="true">//2016/06/15/Zhangdai-And-His-Dreams/</guid>
+        <link>ericyiyang.github.io/2016/06/15/Zhangdai-And-His-Dreams/</link>
+        <guid isPermaLink="true">ericyiyang.github.io/2016/06/15/Zhangdai-And-His-Dreams/</guid>
         
         
       </item>
