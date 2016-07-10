@@ -4,8 +4,8 @@ body_class: page_template
 ---
 {% if page.image %}
 <div id="feature_image">
-  <div class="inner" style="background-image: url('/images/{{ page.image }}')">
-    <img src='/images/{{ page.image }}'>
+  <div class="inner" style="background-image: url('{{ site.baseurl }}/images//{{ page.image }}')">
+    <img src='{{ site.baseurl }}/images/{{ page.image }}'>
     </div>
 </div>
 {% endif %}
