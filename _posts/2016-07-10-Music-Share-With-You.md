@@ -7,14 +7,13 @@ image: elderpianist.jpg
 
 ## 越听越好听
 
-a song of queen
+a song of queen: love of my life  
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=18317626&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
 
 
-### 
 
-歌词：
+### 歌词：
 
 
 > ……
