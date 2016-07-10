@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /About/
-image: avatar.png
+image: manware.jpg
 ---
 
 <center>
