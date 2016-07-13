@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "诗歌的精妙"
 description: 句句是鹰，句句是画。起句之末是画，已先是鹰。真是鬼斧神工。
 image: header2.jpg
 ---
